@@ -1,33 +1,33 @@
 {
 	"schemaVersion": 1,
-	"id": "barebones",
+	"id": "creeper-shutdown",
 	"version": "${version}",
 
-	"name": "Barebones",
+	"name": "CreeperShutdown",
 	"description": "Congrats, you made it work!",
 	"authors": ["LoganDark"],
 	"contact": {
-		"sources": "https://github.com/LoganDark/fabric-barebones",
-		"website": "https://github.com/LoganDark/fabric-barebones",
-		"issues": "https://github.com/LoganDark/fabric-barebones/issues"
+		"sources": "https://github.com/LoganDark/fabric-creeper-shutdown",
+		"website": "https://github.com/LoganDark/fabric-creeper-shutdown",
+		"issues": "https://github.com/LoganDark/fabric-creeper-shutdown/issues"
 	},
 
 	"custom": {},
 
 	"license": "GPLv3",
-	"icon": "assets/barebones/icon.png",
+	"icon": "assets/creeper-shutdown/icon.png",
 
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
 				"adapter": "kotlin",
-				"value": "net.logandark.barebones.Barebones"
+				"value": "net.logandark.creepershutdown.CreeperShutdown"
 			}
 		]
 	},
 
-	"mixins": ["barebones.mixins.json"],
+	"mixins": ["creeper-shutdown.mixins.json"],
 
 	"depends": {
 		"fabricloader": ">=${loader_version}",
