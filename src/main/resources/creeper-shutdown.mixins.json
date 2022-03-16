@@ -2,8 +2,8 @@
 	"required": true,
 	"package": "net.logandark.creepershutdown.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [],
-	"client": ["AntiCoronavirus"],
+	"mixins": ["MixinCreeper"],
+	"client": [],
 	"server": [],
 	"injectors": {
 		"defaultRequire": 1
